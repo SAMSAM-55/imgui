@@ -26,7 +26,7 @@ project "ImGui"
 
 	includedirs
 	{
-		".",
+		"vendor/imgui",
 		"../freetype/include"
 	}
 
