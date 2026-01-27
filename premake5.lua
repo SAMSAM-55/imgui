@@ -14,6 +14,8 @@ project "ImGui"
 		"imgui_draw.cpp",
 		"imgui_internal.h",
 		"imgui_tables.cpp",
+		"imgui_impl_glfw_gl3.cpp",
+		"imgui_impl_glfw_gl3.h",
 		"imgui_widgets.cpp",
 		"imstb_rectpack.h",
 		"imstb_textedit.h",
@@ -27,6 +29,8 @@ project "ImGui"
 	includedirs
 	{
 		".",
+		"../glew/include",
+		"../glfw/include",
 		"misc/freetype",
 		"../freetype/include"
 	}
